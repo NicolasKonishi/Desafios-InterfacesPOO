@@ -18,6 +18,46 @@ Com base no vídeo de lançamento do iPhone de 2007, o aluno deve elaborar a dia
 <p align= "center"> Foi utilizado a plataforma Mermaid para desenvolver o diagrama de classes acima.</p>
 
 
+# Interfaces
+
+ Reprodutor Musical:
+- `tocar()`
+- `pausar()`
+- `selecionarMusica(String musica)`
+  
+```java
+public interface ReprodutorMusical {
+    void tocar();
+    void pausar();
+    void selecionarMusica(String musica);
+}
+```
+
+Aparelho Telefônico:
+- `ligar(String numero)`
+- `atender()`
+- `iniciarCorreioVoz()`
+  
+```java
+public interface AparelhoTelefonico {
+    void ligar(String numero);
+    void atender();
+    void iniciarCorreioVoz();
+}
+```
+
+Navegador na Internet:
+- `exibirPagina(String url)`
+- `adicionarNovaAba()`
+- `atualizarPagina()`
+
+```java
+  public interface NavegadorInternet {
+    void exibirPagina(String url);
+    void adicionarNovaAba();
+    void atualizarPagina();
+}
+```
 #
 
 Você pode adicionar o diagrama UML na seção indicada no README. Se precisar de mais alguma coisa, estou à disposição!
