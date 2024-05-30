@@ -20,6 +20,8 @@ Com base no vídeo de lançamento do iPhone de 2007, o aluno deve elaborar a dia
 
 # Interfaces
 
+As interfaces serviram para dizer que o iphone teria acesso a todas elas e que o aparelho consegue implementar todas as funcionalidades de um reprodutor musical, um aparelho telefônico e um navegador de internet.
+
  Reprodutor Musical:
 - `tocar()`
 - `pausar()`
