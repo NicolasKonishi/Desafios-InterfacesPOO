@@ -2,14 +2,14 @@ package Desafio_Banco;
 
 public abstract class Conta implements Metodos{
 
+
     private static final int AGENCIA_PADRAO = 1;
     private static int SEQUENCIAL = 1;
 
     protected int agencia;
     protected int numero;
     protected double saldo;
-    private  Cliente cliente;
-
+    private Cliente cliente;
 
     public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
