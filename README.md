@@ -1,14 +1,14 @@
-# Projeto iPhone UML e Implementação em Java 📱
+# Projeto Desafio_Iphone.iPhone UML e Implementação em Java 📱
 
 ## Descrição
 
-Este desafio tem como objetivo modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. 
+Este desafio tem como objetivo modelar e diagramar a representação UML do componente Desafio_Iphone.iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. 
 Para melhor entendimento das funcionalidades dos pilhares de POO foi utilizado classes e interfaces no projeto.
 
 ## Contexto do desafio
-Com base no vídeo de lançamento do iPhone de 2007, o aluno deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implementar as classes e interfaces no formato de arquivos .java.
+Com base no vídeo de lançamento do Desafio_Iphone.iPhone de 2007, o aluno deve elaborar a diagramação das classes e interfaces utilizando uma ferramenta UML de sua preferência. Em seguida, implementar as classes e interfaces no formato de arquivos .java.
 
-[Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8) 
+[Lançamento Desafio_Iphone.iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8) 
 
 
 ## Diagrama UML
@@ -28,7 +28,7 @@ As interfaces serviram para dizer que o iphone teria acesso a todas elas e que o
 - `selecionarMusica(String musica)`
   
 ```java
-public interface ReprodutorMusical {
+public interface Desafio_Iphone.ReprodutorMusical {
     void tocar();
     void pausar();
     void selecionarMusica(String musica);
@@ -41,7 +41,7 @@ Aparelho Telefônico:
 - `iniciarCorreioVoz()`
   
 ```java
-public interface AparelhoTelefonico {
+public interface Desafio_Iphone.AparelhoTelefonico {
     void ligar(String numero);
     void atender();
     void iniciarCorreioVoz();
@@ -54,7 +54,7 @@ Navegador na Internet:
 - `atualizarPagina()`
 
 ```java
-  public interface NavegadorInternet {
+  public interface Desafio_Iphone.NavegadorInternet {
     void exibirPagina(String url);
     void adicionarNovaAba();
     void atualizarPagina();
